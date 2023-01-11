@@ -15,7 +15,10 @@ As you can see, after activation of virtual environment, prompt suffix will chan
 
 After lab started, you may verify connectivity to each device via ping to below IP address. Please, note that it may a take few seconds prior device will become reachable after lab start. To break ping command, please execute CRTL+C.
 
-.. list-table:: connectivity details
+.. list-table::
+    :widths: 50 50
+    :header-rows: 1
+
     * - Node name
       - IP address
     * - Spine-01
