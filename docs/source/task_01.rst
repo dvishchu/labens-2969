@@ -11,7 +11,7 @@ First, we will start with activation of our virtual environment for python and w
     (ansible) ansible@iol-ansible:~$ cd cat9k-evpn-ansible/dag/
     (ansible) ansible@iol-ansible:~/cat9k-evpn-ansible/dag$ 
 
-As you can see, after activation of virtual environment, prompt suffix will change to (ansible) indicating that virtual environment was activated. Now, lets start our lab devices and verify, that they are reachable.  For this, please login to [lab manager] and select lab number 1 -> “01”.
+As you can see, after activation of virtual environment, prompt suffix will change to ``(ansible)`` indicating that virtual environment was activated. Now, lets start our lab devices and verify, that they are reachable.  For this, please login to ``lab manager`` and select lab number 1 -> ``01``.
 
 After lab started, you may verify connectivity to each device via ping to below IP address. Please, note that it may a take few seconds prior device will become reachable after lab start. To break ping command, please execute CRTL+C.
 
