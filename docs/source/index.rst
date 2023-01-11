@@ -9,5 +9,5 @@ Contents
 .. toctree::
 
    intro
-   main
    task_01
+   task_02
