@@ -32,6 +32,9 @@ As you can see, our playbook returned license error. This would be problem in re
 
     (ansible) ansible@iol-ansible:~/cat9k-evpn-ansible/dag$ ansible-playbook -i inventory.yml playbook_overlay_preview.yml
 
+.. image:: assets/task03_config_preview.png
+  :align: center
+
 This playbook will create file for every device in ``preview_files`` folder with file suffix ``-overlay``. Please, feel free to take your time and examine content of those files.
 
 .. code-block:: console
