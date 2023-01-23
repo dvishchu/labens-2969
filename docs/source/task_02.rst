@@ -12,6 +12,9 @@ Prior we can provision our configuration on devices, we must define variables li
     (ansible) ansible@iol-ansible:~/cat9k-evpn-ansible/dag$ ls host_vars/node_vars/
     Leaf-01.yml  Leaf-02.yml  Spine-01.yml  Spine-02.yml
 
+.. image:: assets/task02_host_vars.png
+  :align: center
+
 As you can see, we have defined variables for every device. Feel free to take your time and examine variables definition for each device. In next step, we will preview configuration, which will be generated based on supplied host variables. To do this, we will execute our first ansible playbook via command below.
 
 .. code-block:: console
