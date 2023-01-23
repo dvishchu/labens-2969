@@ -17,7 +17,7 @@ As you could notice in previous task, we had configuration of VRF blue commented
 You have to uncomment VRF blue configuration in following sections – vrfs, vlans and svis. Please, make sure that you will keep proper spacing and indentation between the lines. Also, please do not forget to save file after the changes are performed.
 
 .. note:: 
-    To uncomment lines in Vscode, you can select commented lines with configuration and press ``CTRL + /``. You may find also this options under Edit -> Toggle Line Comment.
+    To uncomment lines in Vscode, you can select commented lines with configuration and press ``CTRL + /``. You may find also this options under ``Edit -> Toggle Line Comment``.
 
 In the next step, we will specify in the create variables that we want to provision only VRF blue and that we want to updated our access interfaces with VRF blue VLANs as well. Location for create variables can be found below.
 
