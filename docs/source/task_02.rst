@@ -17,6 +17,9 @@ Prior we can provision our configuration on devices, we must define variables li
 
 As you can see, we have defined variables for every device. Feel free to take your time and examine variables definition for each device. In next step, we will preview configuration, which will be generated based on supplied host variables. To do this, we will execute our first ansible playbook via command below.
 
+.. note::
+    Ansible Playbook is simple configuration file containing repeatable tasks, which are executed on hosts defined in ansible inventory. 
+
 .. code-block:: console
 
     (ansible) ansible@iol-ansible:~/cat9k-evpn-ansible/dag$ ansible-playbook -i inventory.yml playbook_underlay_preview.yml
