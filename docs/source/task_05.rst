@@ -25,11 +25,17 @@ In the next step, we will specify in the create variables that we want to provis
 
     (ansible) ansible@iol-ansible:~/cat9k-evpn-ansible/dag$ cat group_vars/create_vars.yml
 
+.. image:: assets/task05_create_vars.png
+  :align: center
+
 After this step, we can preview our configuration which we are going to apply on our devices. To generate our configuration preview, we can run ansible playbook below.
 
 .. code-block:: console
 
     (ansible) ansible@iol-ansible:~/cat9k-evpn-ansible/dag$ ansible-playbook -i inventory.yml playbook_overlay_incremental_preview.yml
+
+.. image:: assets/task05_config_preview.png
+  :align: center
 
 This playbook also created previous files in the ``preview_files`` folder, but with ``-inc`` suffix. Please, note that we will provision only configuration relate to VRF blue only. Feel free to take your time to examine content in the folder.
 
