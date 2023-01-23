@@ -11,11 +11,15 @@ To delete specific instance from our devices, we must update delete variables wh
 
     (ansible) ansible@iol-ansible:~/cat9k-evpn-ansible/dag$ cat group_vars/delete_vars.yml
 
+.. image:: assets/task06_delete_vars.png
+
 In delete variables, we will also specify that we want to update our access interfaces, so vlans associated with VRF blue will be automatically removed from device. In order to preview our delete configuration, you can run ansible playbook below.
 
 .. code-block:: console
 
     (ansible) ansible@iol-ansible:~/cat9k-evpn-ansible/dag$ ansible-playbook -i inventory.yml playbook_overlay_delete_preview.yml
+
+.. image:: assets/task06_config_preview.png
 
 This playbook generated preview configuration into ``preview_files`` folder with ``-delete`` suffix. Please, feel free to take your time to examine content of the folder.
 
