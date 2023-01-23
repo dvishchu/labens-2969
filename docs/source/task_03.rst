@@ -12,7 +12,6 @@ Same as it was for the underlay, we have to define our variables for overlay as 
     (ansible) ansible@iol-ansible:~/cat9k-evpn-ansible/dag$ cat group_vars/overlay_db.yml
 
 .. image:: assets/task03_overlay_db.png
-  :align: center
 
 Please, note that you will see as well commented part of VRF blue configuration which will be performed in future task. Based on these variables, ansible playbook will generate our configuration for each device. To verify, if our overlay configuration is correct, we can run below playbook, which will go over overlay variables and verify, if our variables are logically correct.
 
@@ -33,7 +32,6 @@ As you can see, our playbook returned license error. This would be problem in re
     (ansible) ansible@iol-ansible:~/cat9k-evpn-ansible/dag$ ansible-playbook -i inventory.yml playbook_overlay_preview.yml
 
 .. image:: assets/task03_config_preview.png
-  :align: center
 
 This playbook will create file for every device in ``preview_files`` folder with file suffix ``-overlay``. Please, feel free to take your time and examine content of those files.
 

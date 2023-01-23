@@ -13,7 +13,6 @@ Prior we can provision our configuration on devices, we must define variables li
     Leaf-01.yml  Leaf-02.yml  Spine-01.yml  Spine-02.yml
 
 .. image:: assets/task02_host_vars.png
-  :align: center
 
 As you can see, we have defined variables for every device. Feel free to take your time and examine variables definition for each device. In next step, we will preview configuration, which will be generated based on supplied host variables. To do this, we will execute our first ansible playbook via command below.
 
@@ -32,7 +31,6 @@ Output from this ansible playbook can be found in the folder ``preview_files``. 
     Leaf-01-underlay.txt  Leaf-02-underlay.txt  Spine-01-underlay.txt  Spine-02-underlay.txt
 
 .. image:: assets/task02_config_preview.png
-  :align: center
 
 This way, we can preview and verify if generated device configuration is correct and if there are needed some adjustment being made to our initial host variables. Once we are happy with our configuration, we can commit configuration on device via following ansible playbook.
 

@@ -64,6 +64,5 @@ In the variables ``ansible_user`` and ``ansible_ssh_pass`` are defined our devic
     (ansible) ansible@iol-ansible:~/cat9k-evpn-ansible/dag$ cat inventory.yml
 
 .. image:: assets/task01_inventory.png
-  :align: center
 
 This file holds connection details to all devices in our testing topology. As you can see, devices are divided into two groups: spine and leaf. After this step, we are ready to run our first ansible playbook. 
