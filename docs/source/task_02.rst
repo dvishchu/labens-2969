@@ -28,6 +28,9 @@ Output from this ansible playbook can be found in the folder ``preview_files``. 
     (ansible) ansible@iol-ansible:~/cat9k-evpn-ansible/dag$ ls preview_files/
     Leaf-01-underlay.txt  Leaf-02-underlay.txt  Spine-01-underlay.txt  Spine-02-underlay.txt
 
+.. image:: assets/task02_config_preview.png
+  :align: center
+
 This way, we can preview and verify if generated device configuration is correct and if there are needed some adjustment being made to our initial host variables. Once we are happy with our configuration, we can commit configuration on device via following ansible playbook.
 
 .. code-block:: console
