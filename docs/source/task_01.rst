@@ -6,6 +6,10 @@ TASK 01: Prepare network devices for automation
 
 In this task, we will prepare our environment and devices for automation via ansible. This means that we will activate our virtual environment for python which have already preinstalled all necessary libraries and we will verify connectivity towards network devices.
 
+.. note::
+
+  Virtual environment is set of python packages installed in their dedicated project folder. Each environment can use different versions of python packages, which enables you to manage your python dependencies on project basis.
+
 First, we will start with activation of our virtual environment for python and we will enter project folder. This can be accomplished via commands below.
 
 .. code-block:: console
