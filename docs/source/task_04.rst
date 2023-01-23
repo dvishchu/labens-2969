@@ -12,6 +12,9 @@ Our configuration variables of access interfaces can be found in folder below. F
     (ansible) ansible@iol-ansible:~/cat9k-evpn-ansible/dag$ ls host_vars/access_intf/
     Leaf-01.yml  Leaf-02.yml
 
+.. image:: assets/task04_access_vars.png
+  :align: center
+
 Configuration in this task is not so big as in previous task since we will be configuring only single interface – E0/0 as trunk interface. To preview our configuration, you can run below ansible playbook.
 
 .. code-block:: console
@@ -25,6 +28,9 @@ This ansible paybook will as well create configuration files in ``preview_files`
     (ansible) ansible@iol-ansible:~/cat9k-evpn-ansible/dag$ ls preview_files/ | grep add
     Leaf-01-add-intf.txt
     Leaf-02-add-intf.txt
+
+.. image:: assets/task04_config_preview.png
+  :align: center
 
 Once we are ready, we can commit the configuration on devices via playbook below.
 
