@@ -11,6 +11,9 @@ Same as it was for the underlay, we have to define our variables for overlay as 
 
     (ansible) ansible@iol-ansible:~/cat9k-evpn-ansible/dag$ cat group_vars/overlay_db.yml
 
+.. image:: assets/task03_overlay_db.png
+  :align: center
+
 Please, note that you will see as well commented part of VRF blue configuration which will be performed in future task. Based on these variables, ansible playbook will generate our configuration for each device. To verify, if our overlay configuration is correct, we can run below playbook, which will go over overlay variables and verify, if our variables are logically correct.
 
 .. code-block:: console
