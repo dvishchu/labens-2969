@@ -13,7 +13,6 @@ Our configuration variables of access interfaces can be found in folder below. F
     Leaf-01.yml  Leaf-02.yml
 
 .. image:: assets/task04_access_vars.png
-  :align: center
 
 Configuration in this task is not so big as in previous task since we will be configuring only single interface – E0/0 as trunk interface. To preview our configuration, you can run below ansible playbook.
 
@@ -30,7 +29,6 @@ This ansible paybook will as well create configuration files in ``preview_files`
     Leaf-02-add-intf.txt
 
 .. image:: assets/task04_config_preview.png
-  :align: center
 
 Once we are ready, we can commit the configuration on devices via playbook below.
 
