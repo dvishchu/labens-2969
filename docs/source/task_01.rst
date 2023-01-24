@@ -67,10 +67,11 @@ In the variables ``ansible_user`` and ``ansible_ssh_pass`` are defined our devic
 
 This file holds connection details to all devices in our testing topology. As you can see, devices are divided into two groups: spine and leaf. After this step, we are ready to run our first ansible playbook. 
 
-Prior we will come to this point, lets also examine current state of our lab devices. As you can see on ``Leaf-01``, we have no configuration present and all protocols are currently down. There is also no EVPN specific configuration present. During this lab, we will take systematic approach and we will provision all necessary configuration parts, which are needed for EVPN, from scratch.  
+Prior we will come to this point, lets also examine current state of our lab devices. As you can see on ``Leaf-01``, we have no configuration present and all protocols are currently down. There is also no EVPN specific configuration present. During this lab, we will take systematic approach and we will provision all necessary configuration parts from scratch.  
 
 .. code-block:: console
     :linenos:
+    :class: highlight-command highlight-command-6 highlight-command-21 highlight-command-28
 
     cfg01-L1#sh ip ospf nei
   
