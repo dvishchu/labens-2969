@@ -38,11 +38,14 @@ Once we are ready, we can proceed with commit of changes into devices. To commit
 After this step, our VRF configuration was removed from devices. We can take a closer look again on ``Leaf-01``. As we can see below, VRF blue was removed.
 
 .. code-block:: console
+    :linenos:
+    :class: highlight-command
 
     Leaf-01#sh vrf
-    Name                    Default RD            Protocols   Interfaces
-    green                   1:1                   ipv4,ipv6   Vl101
-                                                                Vl102
-                                                                Vl901
-                                                                Lo11
-    mgmt                    <not set>             ipv4        Et1/3
+    Name                             Default RD            Protocols   Interfaces
+    green                            1:1                   ipv4,ipv6   Vl101
+                                                                       Vl102
+                                                                       Vl901
+                                                                       Lo11
+    mgmt                             <not set>             ipv4        Et1/3
+
