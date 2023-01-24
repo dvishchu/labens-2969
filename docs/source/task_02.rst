@@ -45,7 +45,7 @@ After this step, ansible playbook connected to our devices and provisioned under
 
 .. code-block:: console
     :linenos:
-    :class: highlight-command
+    :class: highlight-command highlight-command-12
 
     Leaf-01#sh ip ospf neighbor 
     Neighbor ID     Pri   State           Dead Time   Address         Interface
