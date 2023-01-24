@@ -71,7 +71,6 @@ Prior we will come to this point, lets also examine current state of our lab dev
 
 .. code-block:: console
     :linenos:
-    :emphasize-lines: 3
     :class: highlight-command highlight-command-6 highlight-command-21 highlight-command-28
 
     cfg01-L1#sh ip ospf nei

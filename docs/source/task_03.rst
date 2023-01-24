@@ -56,6 +56,7 @@ After this step, our ansible playbook connected to devices and provisioned our o
 
 .. code-block:: console
     :linenos:
+    :emphasize-lines: 3,4,5,19,20,21
     :class: highlight-command highlight-command-18 highlight-command-27
 
     Leaf-01#sh vrf
