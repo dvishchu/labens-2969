@@ -40,7 +40,12 @@ This way, we can preview and verify if generated device configuration is correct
 
 After this step, ansible playbook connected to our devices and provisioned underlay configuration. Let’s have a brief look at control plane on the ``Leaf-01``. As you can see, our PIM and OSPF adjacencies between our spine and leaf devices are up. Now, we can proceed further with overlay configuration.
 
+.. image:: assets/task02_underlay.png
+    :align: center
+
 .. code-block:: console
+    :linenos:
+    :class: highlight-command
 
     Leaf-01#sh ip ospf neighbor 
     Neighbor ID     Pri   State           Dead Time   Address         Interface
