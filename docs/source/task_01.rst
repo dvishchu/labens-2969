@@ -70,24 +70,23 @@ This file holds connection details to all devices in our testing topology. As yo
 Prior we will start executing our first playbooks, lets also examine current state of our lab devices. As you can see on ``Leaf-01``, we have no configuration present and all protocols are currently down. There is also no EVPN specific configuration present. During this lab, we will take systematic approach and we will provision all necessary configuration parts, which are needed for EVPN, from scratch.  
 
 .. code-block:: console
-  :lineos:
 
-  cfg01-L1#sh ip ospf nei
+    cfg01-L1#sh ip ospf nei
   
-  cfg01-L1#sh ip pim nei
-  PIM Neighbor Table
-  Mode: B - Bidir Capable, DR - Designated Router, N - Default DR Priority,
-        P - Proxy Capable, S - State Refresh Capable, G - GenID Capable,
-        L - DR Load-balancing Capable
-  Neighbor          Interface                Uptime/Expires    Ver   DR
-  Address                                                            Prio/Mode
+    cfg01-L1#sh ip pim nei
+    PIM Neighbor Table
+    Mode: B - Bidir Capable, DR - Designated Router, N - Default DR Priority,
+          P - Proxy Capable, S - State Refresh Capable, G - GenID Capable,
+          L - DR Load-balancing Capable
+    Neighbor          Interface                Uptime/Expires    Ver   DR
+    Address                                                            Prio/Mode
   
-  cfg01-L1#sh bgp all sum
-  % BGP not active
+    cfg01-L1#sh bgp all sum
+    % BGP not active
 
-  cfg01-L1#sh runn nve
-  Building configuration...
+    cfg01-L1#sh runn nve
+    Building configuration...
 
-  Current configuration : 7 bytes
-  !
-  end
+    Current configuration : 7 bytes
+    !
+    end
