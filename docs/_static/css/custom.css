@@ -116,12 +116,12 @@
   font-weight: 600;
 }
 
-.highlight-command-24 pre :nth-child(24) {
+.highlight-command-23 pre :nth-child(23) {
   color: black;
   font-weight: 600;
 }
 
-.highlight-command-27 pre :nth-child(27) {
+.highlight-command-24 pre :nth-child(24) {
   color: black;
   font-weight: 600;
 }
@@ -137,10 +137,6 @@
   background-color: #ccfe99;
 }
 
-.emphasize-hll-blue pre .hll {
-  background-color: #94c5f9;
-}
-
 .emphasize-hll-7 pre :nth-child(7) {
   background-color: #fecccc;
 }
@@ -153,6 +149,18 @@
   background-color: #94c5f9;
 }
 
+.emphasize-hll-33 pre :nth-child(33) {
+  background-color: #94c5f9;
+}
+
 .emphasize-hll-34 pre :nth-child(34) {
+  background-color: #fecccc;
+}
+
+.emphasize-hll-38 pre :nth-child(38) {
+  background-color: #ccfe99;
+}
+
+.emphasize-hll-39 pre :nth-child(39) {
   background-color: #fecccc;
 }

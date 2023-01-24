@@ -58,7 +58,7 @@ After this step, new VRF blue was provisioned on devices. Lets take a closer loo
 .. code-block:: console
     :linenos:
     :emphasize-lines: 3,4,5,19,22,23
-    :class:  highlight-command highlight-command-27 emphasize-hll-blue
+    :class:  highlight-command highlight-command-23 emphasize-hll emphasize-hll-7 emphasize-hll-8 emphasize-hll-33 emphasize-hll-38 emphasize-hll-39
 
     Leaf-01#sh vrf
     Name                             Default RD            Protocols   Interfaces
