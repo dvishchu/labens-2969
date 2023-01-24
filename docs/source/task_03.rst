@@ -56,7 +56,7 @@ After this step, our ansible playbook connected to devices and provisioned our o
 
 .. code-block:: console
     :linenos:
-    :class: highlight-command
+    :class: highlight-command highlight-command-18 highlight-command-27
 
     Leaf-01#sh vrf
     Name                             Default RD            Protocols   Interfaces

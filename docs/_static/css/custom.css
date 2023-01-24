@@ -106,7 +106,17 @@
   font-weight: 600;
 }
 
+.highlight-command-18 pre :nth-child(18) {
+  color: black;
+  font-weight: 600;
+}
+
 .highlight-command-21 pre :nth-child(21) {
+  color: black;
+  font-weight: 600;
+}
+
+.highlight-command-27 pre :nth-child(27) {
   color: black;
   font-weight: 600;
 }
