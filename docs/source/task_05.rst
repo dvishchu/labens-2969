@@ -57,7 +57,7 @@ After this step, new VRF blue was provisioned on devices. Lets take a closer loo
 
 .. code-block:: console
     :linenos:
-    :emphasize-lines: 3,19,22,23
+    :emphasize-lines: 3,4,5,19,22,23
     :class:  highlight-command highlight-command-27 emphasize-hll-blue
 
     Leaf-01#sh vrf
