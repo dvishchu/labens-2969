@@ -106,7 +106,7 @@
   font-weight: 600;
 }
 
-.highlight-command-18 pre :nth-child(18) {
+.highlight-command-15 pre :nth-child(15) {
   color: black;
   font-weight: 600;
 }
@@ -116,7 +116,7 @@
   font-weight: 600;
 }
 
-.highlight-command-27 pre :nth-child(27) {
+.highlight-command-24 pre :nth-child(24) {
   color: black;
   font-weight: 600;
 }
@@ -124,4 +124,26 @@
 .highlight-command-28 pre :nth-child(28) {
   color: black;
   font-weight: 600;
+}
+
+/* HIGHLIGHT EMPHASIZE LINE IN OUTPUTS */
+
+.emphasize-hll pre .hll {
+  background-color: #ccfe99;
+}
+
+.emphasize-hll-7 pre :nth-child(7) {
+  background-color: #fecccc;
+}
+
+.emphasize-hll-8 pre :nth-child(8) {
+  background-color: #94c5f9;
+}
+
+.emphasize-hll-32 pre :nth-child(32) {
+  background-color: #94c5f9;
+}
+
+.emphasize-hll-34 pre :nth-child(34) {
+  background-color: #fecccc;
 }
