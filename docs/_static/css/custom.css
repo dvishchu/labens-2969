@@ -132,6 +132,10 @@
   background-color: #ccfe99;
 }
 
+.emphasize-hll-blue pre .hll {
+  background-color: #94c5f9;
+}
+
 .emphasize-hll-7 pre :nth-child(7) {
   background-color: #fecccc;
 }
