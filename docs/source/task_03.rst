@@ -51,15 +51,20 @@ Once we are happy with generated configuration, we can commit configuration to d
 
 After this step, our ansible playbook connected to devices and provisioned our overlay configuration. We can now take a closer look at control plane state on Leaf-01. As you can see below, VRF green was configured along with SVIs 101, 102 and 901 (VLAN 901 is associated with L3 VNI for VRF green). Additionally, we can see that BGP peering’s with L2VPN EVPN address family with spine devices are established and we are receiving EVPN routes. Since we are receiving EVPN routes, Leaf-01 was able to discover NVE peer 172.16.254.4 – Leaf-02 in both L2 and L3 VNIs.
 
+.. image:: assets/task03_overlay.png
+    :align: center
+
 .. code-block:: console
+    :linenos:
+    :class: highlight-command
 
     Leaf-01#sh vrf
-    Name                 Default RD            Protocols   Interfaces
-    green                1:1                   ipv4,ipv6   Vl101
-                                                            Vl102
-                                                            Vl901
-                                                            Lo11
-    mgmt                 <not set>             ipv4        Et1/3
+    Name                             Default RD            Protocols   Interfaces
+    green                            1:1                   ipv4,ipv6   Vl101
+                                                                       Vl102
+                                                                       Vl901
+                                                                       Lo11
+    mgmt                             <not set>             ipv4        Et1/3
 
     Leaf-01#sh bgp l2vpn evpn summary | beg Neighbor
     Neighbor        V           AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
