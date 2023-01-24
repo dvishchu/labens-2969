@@ -32,7 +32,7 @@ Output from this ansible playbook can be found in the folder ``preview_files``. 
 
 .. image:: assets/task02_config_preview.png
 
-This way, we can preview and verify if generated device configuration is correct and if there are needed some adjustment being made to our initial host variables. Once we are happy with our configuration, we can commit configuration on device via following ansible playbook.
+This way, we can preview and verify if generated device configuration is correct and if there are some adjustments should be made to our initial host variables. Once we are happy with our configuration, we can commit configuration on device via following ansible playbook.
 
 .. code-block:: console
 
