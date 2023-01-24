@@ -50,7 +50,7 @@ Once we are happy with the configuration, we can commit the changes on devices. 
 
     (ansible) ansible@iol-ansible:~/cat9k-evpn-ansible/dag$ ansible-playbook -i inventory.yml playbook_overlay_incremental_commit.yml
 
-After this step, new VRF blue was provisioned on devices. Lets take a closer look on the Leaf-01 control plane. As you can see below, VRF blue was created along with L2 / L3 VNI SVIs. Also, ``Leaf-01`` was able to discover NVE peer ``Leaf-02`` for this new VNI.
+After this step, new VRF blue was provisioned on devices. Lets take a closer look on the ``Leaf-01`` control plane. As you can see below, VRF blue was created along with L2 VNI SVIs - Vlan 201 and Vlan 202 and L3 VNI SVI - Vlan 902. Also, ``Leaf-01`` was able to discover NVE peer 172.16.254.4 - ``Leaf-02`` for this new VNIs.
 
 .. code-block:: console
     :linenos:
