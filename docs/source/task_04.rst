@@ -39,6 +39,8 @@ Once we are ready, we can commit the configuration on devices via playbook below
 After this step, devices were successfully configured and we can verify interface E0/0 configuration on our leaf devices. As you can see below, interface E0/0 was successfully configured. Since we did not specified list of VLAN of trunk, all L2VNI vlans – 101,102 were allowed on trunk.
 
 .. code-block:: console
+    :linenos:
+    :class: highlight-command
 
     Leaf-01#sh runn int e 0/0
     Building configuration...
