@@ -53,26 +53,30 @@ Once we are happy with the configuration, we can commit the changes on devices. 
 After this step, new VRF blue was provisioned on devices. Lets take a closer look on the Leaf-01 control plane. As you can see below, VRF blue was created along with L2 / L3 VNI SVIs. Also, ``Leaf-01`` was able to discover NVE peer ``Leaf-02`` for this new VNI.
 
 .. code-block:: console
+    :linenos:
+    :class:  highlight-command
 
     Leaf-01#sh vrf
-    Name                     Default RD            Protocols   Interfaces
-    blue                     2:2                   ipv4,ipv6   Vl201
-                                                                Vl202
-                                                                Vl902
-                                                                Lo12
-    green                    1:1                   ipv4,ipv6   Vl101
-                                                                Vl102
-                                                                Vl901
-                                                                Lo11
-    mgmt                     <not set>             ipv4        Et1/3
+    Name                             Default RD            Protocols   Interfaces
+    blue                             2:2                   ipv4,ipv6   Vl201
+                                                                       Vl202
+                                                                       Vl902
+                                                                       Lo12
+    green                            1:1                   ipv4,ipv6   Vl101
+                                                                       Vl102
+                                                                       Vl901
+                                                                       Lo11
+    mgmt                             <not set>             ipv4        Et1/3
 
-    Leaf-01#sh nve peers 
+    Leaf-01#sh nve peers
     'M' - MAC entry download flag  'A' - Adjacency download flag
     '4' - IPv4 flag  '6' - IPv6 flag
 
     Interface  VNI      Type Peer-IP          RMAC/Num_RTs   eVNI     state flags UP time
-    nve1       50901    L3CP 172.16.254.4     aabb.cc80.0400 50901      UP  A/M/4 01:27:58
-    nve1       10101    L2CP 172.16.254.4     3              10101      UP   N/A  01:27:58
-    nve1       10102    L2CP 172.16.254.4     4              10102      UP   N/A  01:27:58
-    nve1       10201    L2CP 172.16.254.4     3              10201      UP   N/A  00:00:12
-    nve1       10202    L2CP 172.16.254.4     4              10202      UP   N/A  00:00:12
+    nve1       50901    L3CP 172.16.254.4     aabb.cc80.0400 50901      UP  A/-/4 01:40:30
+    nve1       50902    L3CP 172.16.254.4     aabb.cc80.0400 50902      UP  A/M/4 00:02:12
+    nve1       10101    L2CP 172.16.254.4     5              10101      UP   N/A  01:40:30
+    nve1       10102    L2CP 172.16.254.4     6              10102      UP   N/A  01:40:30
+    nve1       10201    L2CP 172.16.254.4     3              10201      UP   N/A  00:02:14
+    nve1       10202    L2CP 172.16.254.4     4              10202      UP   N/A  00:02:14
+
