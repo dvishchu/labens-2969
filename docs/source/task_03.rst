@@ -13,13 +13,13 @@ Same as it was for the underlay, we have to define our variables for overlay as 
 
 .. image:: assets/task03_overlay_db.png
 
-Please, note that you will see as well commented part of VRF blue configuration which will be performed in future task. Based on these variables, ansible playbook will generate our configuration for each device. To verify, if our overlay configuration is correct, we can run below playbook, which will go over overlay variables and verify, if our variables are logically correct.
+Please note that you will also see the commented part of VRF blue configuration which will be performed in future task. Based on these variables, ansible playbook will generate our configuration for each device. To verify if our overlay configuration is correct, we can run below playbook, which will go over overlay variables and verify if our variables are logically correct.
 
 .. code-block:: console
 
     (ansible) ansible@iol-ansible:~/cat9k-evpn-ansible/dag$ ansible-playbook -i inventory.yml playbook_yml_validation.yml
 
-Since our previous playbook did not return any error, we can continue. In the next step, we will run playbook, which will verify health of our EVPN fabric, e.q. playbook will connect to devices and perform basic health checks like version, license, IP reachability, … on spine and leaf devices.
+Since our previous playbook did not return any error, we can continue. In the next step, we will run playbook, which will verify health of our EVPN fabric, e.q. playbook will connect to devices and perform basic health checks like version, license, IP reachability, etc. on spine and leaf devices.
 
 .. code-block:: console
 
@@ -49,7 +49,7 @@ Once we are happy with generated configuration, we can commit configuration to d
 
     (ansible) ansible@iol-ansible:~/cat9k-evpn-ansible/dag$ ansible-playbook -i inventory.yml playbook_overlay_commit.yml
 
-After this step, our ansible playbook connected to devices and provisioned our overlay configuration. We can now take a closer look at control plane state on Leaf-01. As you can see below, VRF green was configured along with SVIs 101, 102 and 901 (VLAN 901 is associated with L3 VNI for VRF green). Additionally, we can see that BGP peering’s with L2VPN EVPN address family with spine devices are established and we are receiving EVPN routes. Since we are receiving EVPN routes, Leaf-01 was able to discover NVE peer 172.16.254.4 – Leaf-02 in both L2 and L3 VNIs.
+After this step, our ansible playbook connected to devices and provisioned our overlay configuration. We can now take a closer look at control plane state on Leaf-01. As you can see below, VRF green was configured along with SVIs 101, 102 and 901 (VLAN 901 is associated with L3 VNI for VRF green). Additionally, we can see that BGP peerings with L2VPN EVPN address family with spine devices are established and we are receiving EVPN routes. Since we are receiving EVPN routes, Leaf-01 was able to discover NVE peer 172.16.254.4 – Leaf-02 in both L2 and L3 VNIs.
 
 .. image:: assets/task03_overlay.png
     :align: center
