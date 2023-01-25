@@ -40,3 +40,11 @@ Open the the WebRDP link provided for your lab session by proctor, using your CC
 
 Connecting to lab devices
 *************************
+
+On the jumphost, we have prepared for you **SuperPutty**, which will be used for connection to lab devices and as well **VSCode**, which we will use for easier navigation in file system and execution of our ansible playbooks. Both SuperPutty and VSCode icons are located on the desktop.
+
+In the **SupperPutty**, you can find list of saved session in **LABENS-2969** folder. Via ``mgmt`` session, you can access  **lab manager**.  Please, use **lab manager** to initialize lab devices once you are asked to do so in corresponding task.  
+
+You can open connections to all lab devices by selecting **Connect All** option once you will right-click on **LABENS-2969** folder.
+
+.. image:: assets/superputty.PNG
