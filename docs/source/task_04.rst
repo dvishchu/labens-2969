@@ -36,7 +36,7 @@ Once we are ready, we can commit the configuration on devices via playbook below
 
     (ansible) ansible@iol-ansible:~/cat9k-evpn-ansible/dag$ ansible-playbook -i inventory.yml playbook_access_add_commit.yml
 
-After this step, devices were successfully configured and we can verify interface E0/0 configuration on our leaf devices. As you can see below, interface E0/0 was successfully configured. Since we did not specified list of VLAN of trunk, all L2VNI vlans – 101,102 were allowed on trunk.
+After this step, devices were successfully configured and we can verify interface E0/0 configuration on our leaf devices. As you can see below, interface E0/0 was successfully configured. Since we did not specified list of VLAN on the trunk, all L2VNI vlans – 101,102 were allowed on the trunk.
 
 .. code-block:: console
     :linenos:
