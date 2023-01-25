@@ -63,5 +63,5 @@ When working with VSCode, you can use file navigation on the left side to open f
 
 .. note:: 
 
-    During the lab, you will combine both **SuperPutty**, to observe changes on device once you will execute ansible playbook via **VSCode**.
+    During the lab, you will combine both **SuperPutty**, to observe changes on devices after you will execute ansible playbook via **VSCode**.
 
