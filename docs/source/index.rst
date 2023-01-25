@@ -1,13 +1,14 @@
-LABENS-2969 lab tutorial
-===================================
+LABENS-2969: Configuration Campus EVPN Fabric with Ansible
+==========================================================
 
-Wellcome to the LABENS-2969 lab tutorial!
+In this lab activity, you will gain practical skills of deployment of EVPN fabric with Ansible. We will start with almost empty device configuration, and we will gradually provision all necessary configuration parts which are need for EVPN fabric to be operational. This includes configuration of underlay and overlay network including configuration of access port for end hosts. We will also present scenario where we will be incrementally adding and removing services from fabric without disruption of existing services in fabric. 
 
 Contents
 --------
 
 .. toctree::
 
+   disclaimer
    intro
    task_01
    task_02
