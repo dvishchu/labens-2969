@@ -48,3 +48,20 @@ In the **SupperPutty**, you can find list of saved session in **LABENS-2969** fo
 You can open connections to all lab devices by selecting **Connect All** option once you will right-click on **LABENS-2969** folder.
 
 .. image:: assets/superputty.PNG
+
+When you will open **VSCode**, on the top of the window, you will receive prompt asking for password. Please, enter password ``ansible``.
+
+.. note:: 
+
+    Credentials for the ansible host are ansible / ansible.
+
+.. image:: assets/vscode_password.PNG
+
+When working with VSCode, you can use file navigation on the left side to open files in the middle section, so you can easily browse thru them and terminal section in the bottom to execute commands which as instructed in the lab guide.
+
+.. image:: assets/vscode.PNG
+
+.. note:: 
+
+    During the lab, you will combine both **SuperPutty**, to observe changes on device once you will execute ansible playbook via **VSCode**.
+
