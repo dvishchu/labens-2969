@@ -57,7 +57,7 @@ When you will open **VSCode**, on the top of the window, you will receive prompt
 
 .. image:: assets/vscode_password.PNG
 
-When working with VSCode, you can use file navigation on the left side to open files in the middle section, so you can easily browse thru them and terminal section in the bottom to execute commands which as instructed in the lab guide.
+When working with VSCode, you can use file navigation on the left side to open files in the middle section, so you can easily browse thru them and terminal section in the bottom to execute commands as instructed in the lab guide.
 
 .. image:: assets/vscode.PNG
 
