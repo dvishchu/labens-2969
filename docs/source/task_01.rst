@@ -73,9 +73,9 @@ Prior we will come to this point, lets also examine current state of our lab dev
     :linenos:
     :class: highlight-command highlight-command-6 highlight-command-21 highlight-command-28
 
-    cfg01-L1#show ip ospf nei
+    cfg01-L1#show ip ospf neighbor
   
-    cfg01-L1#sh ip pim nei
+    cfg01-L1#show ip pim neighbor
     PIM Neighbor Table
     Mode: B - Bidir Capable, DR - Designated Router, N - Default DR Priority,
           P - Proxy Capable, S - State Refresh Capable, G - GenID Capable,
