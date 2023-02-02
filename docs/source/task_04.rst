@@ -42,7 +42,7 @@ After this step, devices were successfully configured and we can verify interfac
     :linenos:
     :class: highlight-command
 
-    Leaf-01#sh runn int e 0/0
+    Leaf-01#show runn int e 0/0
     Building configuration...
 
     Current configuration : 159 bytes

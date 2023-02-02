@@ -47,12 +47,12 @@ After this step, ansible playbook connected to our devices and provisioned under
     :linenos:
     :class: highlight-command highlight-command-12
 
-    Leaf-01#sh ip ospf neighbor 
+    Leaf-01#show ip ospf neighbor 
     Neighbor ID     Pri   State           Dead Time   Address         Interface
     172.16.255.255    0   FULL/  -        00:00:35    172.16.23.2     Ethernet0/2
     172.16.255.1      0   FULL/  -        00:00:39    172.16.13.1     Ethernet0/1
 
-    Leaf-01#sh ip pim neighbor 
+    Leaf-01#show ip pim neighbor 
     PIM Neighbor Table
     Mode: B - Bidir Capable, DR - Designated Router, N - Default DR Priority,
         P - Proxy Capable, S - State Refresh Capable, G - GenID Capable,

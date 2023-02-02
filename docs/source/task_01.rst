@@ -73,7 +73,7 @@ Prior we will come to this point, lets also examine current state of our lab dev
     :linenos:
     :class: highlight-command highlight-command-6 highlight-command-21 highlight-command-28
 
-    cfg01-L1#sh ip ospf nei
+    cfg01-L1#show ip ospf nei
   
     cfg01-L1#sh ip pim nei
     PIM Neighbor Table
@@ -83,10 +83,10 @@ Prior we will come to this point, lets also examine current state of our lab dev
     Neighbor          Interface                Uptime/Expires    Ver   DR
     Address                                                            Prio/Mode
   
-    cfg01-L1#sh bgp all sum
+    cfg01-L1#show bgp all summary
     % BGP not active
 
-    cfg01-L1#sh runn nve
+    cfg01-L1#show runn nve
     Building configuration...
 
     Current configuration : 7 bytes

@@ -60,7 +60,7 @@ After this step, new VRF blue was provisioned on devices. Lets take a closer loo
     :emphasize-lines: 3,4,5,19,22,23
     :class:  highlight-command highlight-command-23 emphasize-hll emphasize-hll-7 emphasize-hll-8 emphasize-hll-33 emphasize-hll-38 emphasize-hll-39
 
-    Leaf-01#sh vrf
+    Leaf-01#show vrf
     Name                             Default RD            Protocols   Interfaces
     blue                             2:2                   ipv4,ipv6   Vl201
                                                                        Vl202
@@ -72,7 +72,7 @@ After this step, new VRF blue was provisioned on devices. Lets take a closer loo
                                                                        Lo11
     mgmt                             <not set>             ipv4        Et1/3
 
-    Leaf-01#sh nve peers
+    Leaf-01#show nve peers
     'M' - MAC entry download flag  'A' - Adjacency download flag
     '4' - IPv4 flag  '6' - IPv6 flag
 

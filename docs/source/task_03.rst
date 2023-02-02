@@ -59,7 +59,7 @@ After this step, our ansible playbook connected to devices and provisioned our o
     :emphasize-lines: 3,4,5,19,20,21
     :class: highlight-command highlight-command-15 highlight-command-24 emphasize-hll emphasize-hll-7 emphasize-hll-8 emphasize-hll-32 emphasize-hll-34
 
-    Leaf-01#sh vrf
+    Leaf-01#show vrf
     Name                             Default RD            Protocols   Interfaces
     green                            1:1                   ipv4,ipv6   Vl101
                                                                        Vl102
@@ -67,12 +67,12 @@ After this step, our ansible playbook connected to devices and provisioned our o
                                                                        Lo11
     mgmt                             <not set>             ipv4        Et1/3
 
-    Leaf-01#sh bgp l2vpn evpn summary | beg Neighbor
+    Leaf-01#show bgp l2vpn evpn summary | begin Neighbor
     Neighbor        V           AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
     172.16.255.1    4        65001      43      37       22    0    0 00:28:01        6
     172.16.255.2    4        65001      41      37       22    0    0 00:27:56        6
 
-    Leaf-01#sh nve peers 
+    Leaf-01#show nve peers 
     'M' - MAC entry download flag  'A' - Adjacency download flag
     '4' - IPv4 flag  '6' - IPv6 flag
 

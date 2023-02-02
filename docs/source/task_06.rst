@@ -41,7 +41,7 @@ After this step, our VRF configuration was removed from devices. We can take a c
     :linenos:
     :class: highlight-command
 
-    Leaf-01#sh vrf
+    Leaf-01#show vrf
     Name                             Default RD            Protocols   Interfaces
     green                            1:1                   ipv4,ipv6   Vl101
                                                                        Vl102
