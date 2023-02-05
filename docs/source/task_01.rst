@@ -39,8 +39,8 @@ After lab started, you may verify connectivity to each device via ping to below 
 
 .. code-block:: console
 
-    ansible@iol-ansible:~/cat9k-evpn-ansible$ ping 10.1.1.2
-    PING 10.1.1.2 (10.1.1.2) 56(84) bytes of data.
+    ansible@iol-ansible:~/cat9k-evpn-ansible$ ping 10.1.1.1
+    PING 10.1.1.1 (10.1.1.1) 56(84) bytes of data.
     64 bytes from 10.1.1.2: icmp_seq=2 ttl=255 time=0.419 ms
     64 bytes from 10.1.1.2: icmp_seq=3 ttl=255 time=0.293 ms
     64 bytes from 10.1.1.2: icmp_seq=4 ttl=255 time=0.259 ms

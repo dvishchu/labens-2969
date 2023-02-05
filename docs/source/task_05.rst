@@ -13,7 +13,7 @@ As you could notice in previous task, we had configuration of VRF blue commented
 
 .. image:: assets/task05_overlay_db.png
 
-You have to uncomment VRF blue configuration in following sections – vrfs, vlans and svis. Please, make sure that you will keep proper spacing and indentation between the lines. Also, please do not forget to save file after the changes are performed.
+You have to uncomment VRF blue configuration in following sections – vrfs, vlans and svis. Please, make sure that you will keep proper spacing and indentation between the lines. Also, please do not forget to save file after the changes are performed (CTRL + S).
 
 .. note:: 
     To uncomment lines in VSCode, you can select commented lines with configuration and press ``CTRL + /``. You may find also this options under ``Edit -> Toggle Line Comment``.
