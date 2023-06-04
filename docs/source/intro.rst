@@ -33,7 +33,7 @@ After connecting to the VPN of the lab pod, use RDP to connect to the jumphost w
 
     **IP Address**: 198.18.133.36
 
-    **Credentials**: .\admin / C1sco12345
+    **Credentials**: .\\admin / C1sco12345
 
 On the jumphost, we have prepared for you **SuperPutty**, which will be used for connection to lab devices and as well **VSCode**, which we will use for easier navigation in file system and execution of our ansible playbooks. Both SuperPutty and VSCode icons are located on the desktop.
 
