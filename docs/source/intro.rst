@@ -6,7 +6,7 @@ Please, connect to lab via one of the presented connection options and then proc
 BYOD Option
 ***********
 
-Please connect to the lab with **Cisco AnyConnect** (server name: dcloud-lon-anyconnect.cisco.com, you can get credentials from the proctor):
+Please connect to the lab with **Cisco AnyConnect** (server name: **dcloud-lon-anyconnect.cisco.com**, you can get credentials from the proctor):
 
 #. Start **Cisco AnyConnect** on your laptop
 #. Copy the **Host** URL from the **AnyConnect Credentials** and then paste it in the **URL Connection box** in the **AnyConnect** login window.
